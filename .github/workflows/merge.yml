@@ -10,6 +10,9 @@ on:
       - submitted
   status: {}
 
+env:
+  GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
 jobs:
   automerge:
     runs-on: ubuntu-latest
